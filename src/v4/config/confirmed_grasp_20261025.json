@@ -1,0 +1,76 @@
+{
+  "status": "PHYSICALLY_CONFIRMED_SINGLE_POINT_PROFILE",
+  "reference": "F:\\jinsai\\project_records\\vision_grasp_single_point_success_20261025",
+  "physical_confirmation": "这次成功地抓住了物体，吸取这次的教训。",
+  "part": "xc7z020clg400-2",
+  "clock_hz": 50000000,
+  "camera_baud": 921600,
+  "servo_baud": 115200,
+  "height_reference": "Base lowest underside",
+  "forward_mm": 225,
+  "lateral_mm": 0,
+  "object_dimensions_mm": [
+    40,
+    40,
+    40
+  ],
+  "object_bottom_relative_base_bottom_mm": -60,
+  "object_center_relative_base_bottom_mm": -40,
+  "observation_p": [
+    1500,
+    1574,
+    1833,
+    648,
+    1500,
+    1300
+  ],
+  "approach_p": [
+    1500,
+    1295,
+    2225,
+    1430,
+    1500,
+    1300
+  ],
+  "descent_open_p": [
+    1500,
+    1050,
+    2280,
+    1730,
+    1500,
+    1300
+  ],
+  "grip_p": [
+    1500,
+    1050,
+    2280,
+    1730,
+    1500,
+    1700
+  ],
+  "lift_p": [
+    1500,
+    1295,
+    2225,
+    1430,
+    1500,
+    1700
+  ],
+  "move_ms": 5000,
+  "start_delay_ms": 2000,
+  "target_model_pixel": [
+    46,
+    38
+  ],
+  "target_window_radius": 4,
+  "model": "grid_offset_v3_20261024",
+  "model_execution": "FPGA",
+  "camera_role": "capture and UART image transport only",
+  "full_workspace_calibration_valid": false,
+  "standalone_sequence_implemented": true,
+  "newly_integrated_bit_physically_tested": false,
+  "sequence": "observe, fresh FPGA detection, approach open, descend open, close, lift and hold",
+  "automatic_repeat": false,
+  "automatic_release": false,
+  "user_pause_between_stages": false
+}

@@ -1,0 +1,607 @@
+{
+  "status": "PASS",
+  "platform": "Ubuntu-22.04 WSL2 / Verilator",
+  "model_cases": [
+    {
+      "case": "case0",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case0 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,240,40,43 object=1,164,66,16"
+    },
+    {
+      "case": "case1",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case1 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,223,69,69 object=1,249,56,33"
+    },
+    {
+      "case": "case2",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case2 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,226,52,70 object=1,255,49,28"
+    },
+    {
+      "case": "case3",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case3 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,21,24,55 object=0,0,38,38"
+    },
+    {
+      "case": "case4",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case4 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,246,41,73 object=1,253,52,34"
+    },
+    {
+      "case": "case5",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case5 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,222,57,58 object=1,248,47,27"
+    },
+    {
+      "case": "case6",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case6 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,246,39,24 object=1,255,59,39"
+    },
+    {
+      "case": "case7",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case7 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,237,54,75 object=1,255,75,18"
+    },
+    {
+      "case": "case8",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case8 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,243,41,54 object=1,128,70,57"
+    },
+    {
+      "case": "case9",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case9 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,210,43,41 object=1,251,49,44"
+    },
+    {
+      "case": "case10",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case10 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,246,43,39 object=0,30,41,42"
+    },
+    {
+      "case": "case11",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case11 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,230,55,37 object=1,255,74,45"
+    },
+    {
+      "case": "case12",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case12 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,45,39,38 object=0,0,38,38"
+    },
+    {
+      "case": "case13",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case13 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,56,34 object=1,255,59,26"
+    },
+    {
+      "case": "case14",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case14 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,41,71 object=1,254,18,60"
+    },
+    {
+      "case": "case15",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case15 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,36,52 object=1,247,44,38"
+    },
+    {
+      "case": "case16",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case16 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,195,25,25 object=0,0,40,12"
+    },
+    {
+      "case": "case17",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case17 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,6,70,54 object=0,0,72,37"
+    },
+    {
+      "case": "case18",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case18 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,253,55,20 object=1,149,56,22"
+    },
+    {
+      "case": "case19",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case19 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,69,57,23 object=1,251,41,28"
+    },
+    {
+      "case": "case20",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case20 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,9,69,54 object=0,0,23,90"
+    },
+    {
+      "case": "case21",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case21 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,9,22,70 object=0,0,23,90"
+    },
+    {
+      "case": "case22",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case22 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,5,69,70 object=0,0,24,90"
+    },
+    {
+      "case": "case23",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case23 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,7,39,85 object=0,0,24,89"
+    },
+    {
+      "case": "case24",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case24 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,32,84,86 object=0,2,85,9"
+    },
+    {
+      "case": "case25",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case25 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,4,70,85 object=0,0,23,89"
+    },
+    {
+      "case": "case26",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case26 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,4,22,70 object=0,0,24,89"
+    },
+    {
+      "case": "case27",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case27 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,7,39,85 object=0,0,24,89"
+    },
+    {
+      "case": "case28",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case28 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,4,22,70 object=0,0,24,89"
+    },
+    {
+      "case": "case29",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case29 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,4,38,85 object=0,0,24,90"
+    },
+    {
+      "case": "case30",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case30 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,251,56,44 object=0,19,73,23"
+    },
+    {
+      "case": "case31",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case31 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,71,56 object=0,70,74,58"
+    },
+    {
+      "case": "case32",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case32 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,250,52,58 object=0,34,58,27"
+    },
+    {
+      "case": "case33",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case33 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,245,56,41 object=0,36,69,41"
+    },
+    {
+      "case": "case34",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case34 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,38,34 object=0,15,40,28"
+    },
+    {
+      "case": "case35",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case35 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,248,69,44 object=0,30,70,42"
+    },
+    {
+      "case": "case36",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case36 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,243,53,70 object=0,15,72,26"
+    },
+    {
+      "case": "case37",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case37 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,251,56,58 object=0,17,54,56"
+    },
+    {
+      "case": "case38",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case38 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,253,56,19 object=0,19,58,14"
+    },
+    {
+      "case": "case39",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case39 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,241,40,58 object=0,6,37,58"
+    },
+    {
+      "case": "case40",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case40 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,27,55,25 object=1,219,45,18"
+    },
+    {
+      "case": "case41",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case41 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,62,54,39 object=1,253,45,24"
+    },
+    {
+      "case": "case42",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case42 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,164,36,67 object=1,188,35,61"
+    },
+    {
+      "case": "case43",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case43 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,126,22,57 object=1,255,38,71"
+    },
+    {
+      "case": "case44",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case44 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,93,40,56 object=1,255,55,61"
+    },
+    {
+      "case": "case45",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case45 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,55,39,25 object=1,255,55,38"
+    },
+    {
+      "case": "case46",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case46 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,120,53,44 object=1,254,45,53"
+    },
+    {
+      "case": "case47",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case47 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,93,37,42 object=1,255,22,38"
+    },
+    {
+      "case": "case48",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case48 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,75,38,27 object=1,255,30,38"
+    },
+    {
+      "case": "case49",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case49 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,67,54,40 object=1,255,43,58"
+    },
+    {
+      "case": "case50",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case50 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,55,38 object=1,255,44,60"
+    },
+    {
+      "case": "case51",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case51 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,244,51,43 object=1,255,50,70"
+    },
+    {
+      "case": "case52",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case52 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,57,35 object=1,208,84,41"
+    },
+    {
+      "case": "case53",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case53 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,253,37,37 object=1,255,55,59"
+    },
+    {
+      "case": "case54",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case54 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,241,24,58 object=1,255,58,49"
+    },
+    {
+      "case": "case55",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case55 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,250,25,49 object=1,244,27,45"
+    },
+    {
+      "case": "case56",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case56 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,231,42,35 object=1,255,62,50"
+    },
+    {
+      "case": "case57",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case57 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,241,67,54 object=1,255,53,72"
+    },
+    {
+      "case": "case58",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case58 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,26,39 object=1,249,36,53"
+    },
+    {
+      "case": "case59",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case59 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,26,54 object=1,227,36,52"
+    },
+    {
+      "case": "case60",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case60 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,37,55 object=1,238,8,76"
+    },
+    {
+      "case": "case61",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case61 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,248,41,42 object=1,255,27,60"
+    },
+    {
+      "case": "case62",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case62 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,204,52,26 object=1,254,29,49"
+    },
+    {
+      "case": "case63",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case63 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,69,36 object=1,255,44,49"
+    },
+    {
+      "case": "case64",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case64 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,250,35,44 object=1,255,41,61"
+    },
+    {
+      "case": "case65",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case65 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,55,35 object=1,252,36,52"
+    },
+    {
+      "case": "case66",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case66 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,40,25 object=1,255,68,39"
+    },
+    {
+      "case": "case67",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case67 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,240,35,40 object=1,255,43,58"
+    },
+    {
+      "case": "case68",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case68 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,38,50 object=1,255,51,76"
+    },
+    {
+      "case": "case69",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case69 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,235,58,55 object=1,241,62,75"
+    },
+    {
+      "case": "case70",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case70 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,237,55,41 object=1,231,43,65"
+    },
+    {
+      "case": "case71",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case71 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,223,42,25 object=1,253,45,42"
+    },
+    {
+      "case": "case72",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case72 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,183,39,69 object=1,251,55,66"
+    },
+    {
+      "case": "case73",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case73 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,185,41,25 object=1,254,52,24"
+    },
+    {
+      "case": "case74",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case74 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,102,10,12 object=1,244,24,29"
+    },
+    {
+      "case": "case75",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case75 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,250,37,53 object=1,247,35,75"
+    },
+    {
+      "case": "case76",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case76 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,249,38,23 object=1,239,38,45"
+    },
+    {
+      "case": "case77",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case77 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,145,39,54 object=1,254,37,18"
+    },
+    {
+      "case": "case78",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case78 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,231,38,39 object=1,254,50,53"
+    },
+    {
+      "case": "case79",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case79 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,248,37,55 object=1,254,27,69"
+    },
+    {
+      "case": "case80",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case80 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,55,38 object=1,253,39,55"
+    },
+    {
+      "case": "case81",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case81 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,252,56,37 object=1,254,36,54"
+    },
+    {
+      "case": "case82",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case82 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,249,54,36 object=1,251,41,35"
+    },
+    {
+      "case": "case83",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case83 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,254,40,53 object=1,253,21,69"
+    },
+    {
+      "case": "case84",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case84 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,249,52,57 object=1,243,29,33"
+    },
+    {
+      "case": "case85",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case85 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,244,51,50 object=1,255,11,52"
+    },
+    {
+      "case": "case86",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case86 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,249,68,34 object=1,254,38,42"
+    },
+    {
+      "case": "case87",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case87 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,251,40,40 object=0,15,43,36"
+    },
+    {
+      "case": "case88",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case88 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,247,36,51 object=0,16,39,50"
+    },
+    {
+      "case": "case89",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case89 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,245,73,37 object=0,24,27,23"
+    },
+    {
+      "case": "case90",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case90 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,233,38,60 object=0,4,41,59"
+    },
+    {
+      "case": "case91",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case91 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=1,151,70,40 object=1,255,46,53"
+    },
+    {
+      "case": "case92",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case92 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,70,54,27 object=1,255,50,44"
+    },
+    {
+      "case": "case93",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case93 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,77,39,26 object=1,255,51,39"
+    },
+    {
+      "case": "case94",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case94 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,33,24,25 object=1,254,35,33"
+    },
+    {
+      "case": "case95",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case95 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,20,23,70 object=0,0,72,70"
+    },
+    {
+      "case": "case96",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case96 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,5,71,85 object=0,0,73,89"
+    },
+    {
+      "case": "case97",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case97 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,6,39,85 object=0,0,23,90"
+    },
+    {
+      "case": "case98",
+      "status": "PASS",
+      "cycles": 8434587,
+      "output": "PASS: NATIVE_QNN /mnt/f/jinsai/fpga_vision_grasp/model_candidates/native_qnn_v3_20261024/case98 all_head_accumulators=360 bit_exact=1 decode_exact=1 cycles=8434587 finger=0,3,23,69 object=0,0,74,8"
+    }
+  ],
+  "all_360_head_int32_values_exact": true,
+  "all_decoded_outputs_exact": true,
+  "uart_rgb565_resize_model_integration": "PASS: MODEL_PIPELINE UART+CRC_bad_rejection+RGB565+resize96+QNN+decode head360_bit_exact=1 frame_id=37 cycles=49990403 model_cycles=8508304 goods=1 bads=1",
+  "clock_hz": 50000000,
+  "model_simulated_frame_latency_ms": 168.69174,
+  "seconds": 44.80807245300002,
+  "physical_board_test": "NOT_RUN"
+}

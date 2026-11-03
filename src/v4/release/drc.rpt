@@ -1,0 +1,538 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Mon Nov  2 21:12:00 2026
+| Host         : FF running 64-bit major release  (build 9200)
+| Command      : report_drc -file C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/release/drc.rpt
+| Design       : fpga_board_top
+| Device       : xc7z020clg400-2
+| Speed File   : -2
+| Design State : Fully Routed
+----------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: impl_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 99
++-----------+----------+----------------------------+------------+
+| Rule      | Severity | Description                | Violations |
++-----------+----------+----------------------------+------------+
+| CHECK-3   | Warning  | Report rule limit reached  | 2          |
+| DPIP-1    | Warning  | Input pipelining           | 23         |
+| DPOP-1    | Warning  | PREG Output pipelining     | 16         |
+| DPOP-2    | Warning  | MREG Output pipelining     | 16         |
+| REQP-1839 | Warning  | RAMB36 async control check | 20         |
+| REQP-1840 | Warning  | RAMB18 async control check | 20         |
+| RTSTAT-10 | Warning  | No routable loads          | 1          |
+| ZPS7-1    | Warning  | PS7 block required         | 1          |
++-----------+----------+----------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CHECK-3#1 Warning
+Report rule limit reached  
+REQP-1839 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+CHECK-3#2 Warning
+Report rule limit reached  
+REQP-1840 rule limit reached: 20 violations have been found.
+Related violations: <none>
+
+DPIP-1#1 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return0 input confirmed.system/core/camera/resize/blend0_return0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#2 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return0 input confirmed.system/core/camera/resize/blend0_return0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#3 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return0 input confirmed.system/core/camera/resize/blend0_return0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#4 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return2 input confirmed.system/core/camera/resize/blend0_return2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#5 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return0 input confirmed.system/core/camera/resize/blend1_return0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#6 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return0 input confirmed.system/core/camera/resize/blend1_return0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#7 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return0 input confirmed.system/core/camera/resize/blend1_return0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#8 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return2 input confirmed.system/core/camera/resize/blend1_return2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#9 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend_return0 input confirmed.system/core/camera/resize/blend_return0/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#10 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend_return0 input confirmed.system/core/camera/resize/blend_return0/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#11 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend_return0 input confirmed.system/core/camera/resize/blend_return0/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#12 Warning
+Input pipelining  
+DSP confirmed.system/core/camera/resize/blend_return2 input confirmed.system/core/camera/resize/blend_return2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#13 Warning
+Input pipelining  
+DSP confirmed.system/core/interpolate_return2 input confirmed.system/core/interpolate_return2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#14 Warning
+Input pipelining  
+DSP confirmed.system/core/interpolate_return2 input confirmed.system/core/interpolate_return2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#15 Warning
+Input pipelining  
+DSP confirmed.system/core/model/core/computed_pool_read3 input confirmed.system/core/model/core/computed_pool_read3/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#16 Warning
+Input pipelining  
+DSP confirmed.system/core/model/core/p_0_out input confirmed.system/core/model/core/p_0_out/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#17 Warning
+Input pipelining  
+DSP confirmed.system/core/model/core/p_0_out input confirmed.system/core/model/core/p_0_out/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#18 Warning
+Input pipelining  
+DSP confirmed.system/core/model/core/p_1_out input confirmed.system/core/model/core/p_1_out/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#19 Warning
+Input pipelining  
+DSP confirmed.system/core/model/core/p_1_out input confirmed.system/core/model/core/p_1_out/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#20 Warning
+Input pipelining  
+DSP confirmed.system/core/pick_place_mapping.mapper/source_distance_squared input confirmed.system/core/pick_place_mapping.mapper/source_distance_squared/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#21 Warning
+Input pipelining  
+DSP confirmed.system/core/pick_place_mapping.mapper/source_distance_squared input confirmed.system/core/pick_place_mapping.mapper/source_distance_squared/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#22 Warning
+Input pipelining  
+DSP confirmed.system/core/pick_place_mapping.mapper/source_dx_squared input confirmed.system/core/pick_place_mapping.mapper/source_dx_squared/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-1#23 Warning
+Input pipelining  
+DSP confirmed.system/core/pick_place_mapping.mapper/source_dx_squared input confirmed.system/core/pick_place_mapping.mapper/source_dx_squared/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-1#1 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return0 output confirmed.system/core/camera/resize/blend0_return0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#2 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return2 output confirmed.system/core/camera/resize/blend0_return2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#3 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return0 output confirmed.system/core/camera/resize/blend1_return0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#4 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return2 output confirmed.system/core/camera/resize/blend1_return2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#5 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend_return0 output confirmed.system/core/camera/resize/blend_return0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#6 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend_return2 output confirmed.system/core/camera/resize/blend_return2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#7 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/interpolate_return2 output confirmed.system/core/interpolate_return2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#8 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_output0 output confirmed.system/core/model/core/computed_output0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#9 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_pool_read0__0 output confirmed.system/core/model/core/computed_pool_read0__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#10 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_pool_write0 output confirmed.system/core/model/core/computed_pool_write0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#11 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_read2 output confirmed.system/core/model/core/computed_read2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#12 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_read2__0 output confirmed.system/core/model/core/computed_read2__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#13 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/core/p_1_out output confirmed.system/core/model/core/p_1_out/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#14 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/decode/product0 output confirmed.system/core/model/decode/product0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#15 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/model/decode/product0__0 output confirmed.system/core/model/decode/product0__0/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-1#16 Warning
+PREG Output pipelining  
+DSP confirmed.system/core/pick_place_mapping.mapper/source_distance_squared output confirmed.system/core/pick_place_mapping.mapper/source_distance_squared/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-2#1 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return0 multiplier stage confirmed.system/core/camera/resize/blend0_return0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#2 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend0_return2 multiplier stage confirmed.system/core/camera/resize/blend0_return2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#3 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return0 multiplier stage confirmed.system/core/camera/resize/blend1_return0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#4 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend1_return2 multiplier stage confirmed.system/core/camera/resize/blend1_return2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#5 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend_return0 multiplier stage confirmed.system/core/camera/resize/blend_return0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#6 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/camera/resize/blend_return2 multiplier stage confirmed.system/core/camera/resize/blend_return2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#7 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/interpolate_return2 multiplier stage confirmed.system/core/interpolate_return2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#8 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_output0 multiplier stage confirmed.system/core/model/core/computed_output0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#9 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_pool_write0 multiplier stage confirmed.system/core/model/core/computed_pool_write0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#10 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_read2 multiplier stage confirmed.system/core/model/core/computed_read2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#11 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/core/computed_read2__0 multiplier stage confirmed.system/core/model/core/computed_read2__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#12 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/decode/product0 multiplier stage confirmed.system/core/model/decode/product0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#13 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/decode/product0__0 multiplier stage confirmed.system/core/model/decode/product0__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#14 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/decode/product_reg__0 multiplier stage confirmed.system/core/model/decode/product_reg__0/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#15 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/model/decode/product_reg__2 multiplier stage confirmed.system/core/model/decode/product_reg__2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-2#16 Warning
+MREG Output pipelining  
+DSP confirmed.system/core/pick_place_mapping.mapper/source_distance_squared multiplier stage confirmed.system/core/pick_place_mapping.mapper/source_distance_squared/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+REQP-1839#1 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[0] (net: confirmed.system/core/model/core/ram_a/a_waddr[0]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#2 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[10] (net: confirmed.system/core/model/core/ram_a/a_waddr[10]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#3 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[11] (net: confirmed.system/core/model/core/ram_a/a_waddr[11]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#4 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[12] (net: confirmed.system/core/model/core/ram_a/a_waddr[12]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#5 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[13] (net: confirmed.system/core/model/core/ram_a/a_waddr[13]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#6 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[14] (net: confirmed.system/core/model/core/ram_a/a_waddr[14]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#7 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[1] (net: confirmed.system/core/model/core/ram_a/a_waddr[1]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#8 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[2] (net: confirmed.system/core/model/core/ram_a/a_waddr[2]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#9 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[3] (net: confirmed.system/core/model/core/ram_a/a_waddr[3]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#10 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[4] (net: confirmed.system/core/model/core/ram_a/a_waddr[4]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#11 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[5] (net: confirmed.system/core/model/core/ram_a/a_waddr[5]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#12 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[6] (net: confirmed.system/core/model/core/ram_a/a_waddr[6]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#13 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[7] (net: confirmed.system/core/model/core/ram_a/a_waddr[7]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#14 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[8] (net: confirmed.system/core/model/core/ram_a/a_waddr[8]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#15 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ADDRARDADDR[9] (net: confirmed.system/core/model/core/ram_a/a_waddr[9]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#16 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ENARDEN (net: confirmed.system/core/model/core/ram_a/mem_reg_0_0_i_1__1_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#17 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_0 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_0/ENBWREN (net: confirmed.system/core/model/core/ram_a/mem_reg_0_0_ENBWREN_cooolgate_en_sig_13) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#18 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_1 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_1/ADDRARDADDR[12] (net: confirmed.system/core/model/core/ram_a/a_waddr[12]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#19 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_1 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_1/ADDRARDADDR[13] (net: confirmed.system/core/model/core/ram_a/a_waddr[13]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1839#20 Warning
+RAMB36 async control check  
+The RAMB36E1 confirmed.system/core/model/core/ram_a/mem_reg_0_1 has an input control pin confirmed.system/core/model/core/ram_a/mem_reg_0_1/ADDRARDADDR[14] (net: confirmed.system/core/model/core/ram_a/a_waddr[14]) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#1 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[10] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_3_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#2 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[4] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_9_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#3 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[5] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_8_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#4 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[6] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_7_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#5 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[7] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_6_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#6 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[8] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_5_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#7 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ADDRARDADDR[9] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_4_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#8 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/ENARDEN (net: confirmed.system/core/camera/resize/ox_reg_rep_i_1_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#9 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep has an input control pin confirmed.system/core/camera/resize/ox_reg_rep/RSTREGARSTREG (net: confirmed.system/core/camera/resize/rst_n) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#10 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[10] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_3_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#11 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[4] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_9_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#12 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[5] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_8_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#13 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[6] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_7_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#14 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[7] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_6_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#15 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[8] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_5_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#16 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ADDRARDADDR[9] (net: confirmed.system/core/camera/resize/ox_reg_rep_i_4_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#17 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/ox_reg_rep__0 has an input control pin confirmed.system/core/camera/resize/ox_reg_rep__0/ENARDEN (net: confirmed.system/core/camera/resize/ox_reg_rep_i_1_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#18 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/oy_reg_rep has an input control pin confirmed.system/core/camera/resize/oy_reg_rep/ADDRARDADDR[10] (net: confirmed.system/core/camera/resize/oy_reg_rep_i_2_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#19 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/oy_reg_rep has an input control pin confirmed.system/core/camera/resize/oy_reg_rep/ADDRARDADDR[8] (net: confirmed.system/core/camera/resize/oy_reg_rep_i_4_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+REQP-1840#20 Warning
+RAMB18 async control check  
+The RAMB18E1 confirmed.system/core/camera/resize/oy_reg_rep has an input control pin confirmed.system/core/camera/resize/oy_reg_rep/ADDRARDADDR[9] (net: confirmed.system/core/camera/resize/oy_reg_rep_i_3_n_0) which is driven by a register (resetter/sync_ff_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+Related violations: <none>
+
+RTSTAT-10#1 Warning
+No routable loads  
+19 net(s) have no routable loads. The problem bus(es) and/or net(s) are dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gr1.gr1_int.rfwft/aempty_fwft_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg[2:0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD1/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD7_CTL/ctl_reg_en_2[1], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_capture[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_drck[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_switch/m_bscan_runtest[0], dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwhf.whf/overflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/gras.rsts/ram_empty_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.wr/gwas.wsts/ram_full_i, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/rstblk/rd_rst_reg[0], dbg_hub/inst/BSCANID.u_xsdbm_id/SWITCH_N_EXT_BSCAN.bscan_inst/s_bscan_tms, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_WR/U_WR_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_wrfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grhf.rhf/underflow, dbg_hub/inst/BSCANID.u_xsdbm_id/CORE_XSDB.UUT_MASTER/U_ICON_INTERFACE/U_CMD6_RD/U_RD_FIFO/SUBCORE_FIFO.xsdbm_v3_0_0_rdfifo_inst/inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grhf.rhf/underflow (the first 15 of 17 listed).
+Related violations: <none>
+
+ZPS7-1#1 Warning
+PS7 block required  
+The PS7 cell must be used in this Zynq design in order to enable correct default configuration.
+Related violations: <none>
+
+

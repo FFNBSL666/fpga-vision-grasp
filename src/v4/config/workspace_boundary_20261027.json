@@ -1,0 +1,100 @@
+{
+  "recorded_utc": "2026-10-31T09:16:06.870788+00:00",
+  "units": "cm",
+  "origin": "base rotation center in XY",
+  "x_positive": "right",
+  "y_positive": "forward",
+  "corners": [
+    {
+      "label": "A_left_near",
+      "model_pixel": [
+        0,
+        95
+      ],
+      "base_xy_cm": [
+        -11,
+        10
+      ],
+      "robot_xy_mm": [
+        100,
+        110
+      ]
+    },
+    {
+      "label": "B_right_near",
+      "model_pixel": [
+        95,
+        95
+      ],
+      "base_xy_cm": [
+        11,
+        10
+      ],
+      "robot_xy_mm": [
+        100,
+        -110
+      ]
+    },
+    {
+      "label": "C_right_far",
+      "model_pixel": [
+        95,
+        0
+      ],
+      "base_xy_cm": [
+        11,
+        25
+      ],
+      "robot_xy_mm": [
+        250,
+        -110
+      ]
+    },
+    {
+      "label": "D_left_far",
+      "model_pixel": [
+        0,
+        0
+      ],
+      "base_xy_cm": [
+        -11,
+        25
+      ],
+      "robot_xy_mm": [
+        250,
+        110
+      ]
+    }
+  ],
+  "previous_Y_offset_cm": 11.5,
+  "new_Y_offset_cm": 0,
+  "z_reference_confirmed": "cube bottom and base underside on the same tabletop",
+  "cube_height_cm": 4,
+  "cube_center_above_table_mm": 20,
+  "shoulder_axis_above_table_mm": 94.5,
+  "contact_up_mm": -74.5,
+  "approach_up_mm": -4.5,
+  "prior_pixel_corner_association_reused": true,
+  "new_pixel_samples_collected": false,
+  "physical_accuracy_verified": false,
+  "user_requested_xy_bounds_cm": {
+    "X": [
+      -11,
+      11
+    ],
+    "Y": [
+      10,
+      25
+    ]
+  },
+  "previous_xy_bounds_cm": {
+    "X": [
+      -12,
+      12
+    ],
+    "Y": [
+      8,
+      24
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "status": "LATEST_BOUNDARIES_X_MINUS11_TO11_Y10_TO25_CM",
+  "observation_p": [
+    1500,
+    2047,
+    2241,
+    928,
+    1500,
+    1300
+  ],
+  "object_center_relative_base_bottom_mm": 20,
+  "base_yaw_p_sign_for_left": 1,
+  "points": [
+    {
+      "model_pixel": [
+        0,
+        95
+      ],
+      "robot_xy_mm": [
+        100,
+        110
+      ]
+    },
+    {
+      "model_pixel": [
+        95,
+        95
+      ],
+      "robot_xy_mm": [
+        100,
+        -110
+      ]
+    },
+    {
+      "model_pixel": [
+        95,
+        0
+      ],
+      "robot_xy_mm": [
+        250,
+        -110
+      ]
+    },
+    {
+      "model_pixel": [
+        0,
+        0
+      ],
+      "robot_xy_mm": [
+        250,
+        110
+      ]
+    }
+  ],
+  "historical_reference_not_used_as_fresh_calibration": {
+    "model_pixel": [
+      46,
+      38
+    ],
+    "robot_xy_mm": [
+      225,
+      0
+    ],
+    "physical_grasp_success": true
+  },
+  "point_format": {
+    "model_pixel": [
+      "0..95 x",
+      "0..95 y"
+    ],
+    "robot_xy_mm": [
+      "forward from shoulder axis",
+      "left of base centerline"
+    ]
+  },
+  "note": "Use four spread, noncollinear measured pairs at the same object-center height and observation pose. Do not fill guessed coordinates.",
+  "surface_relative_base_bottom_mm": 0,
+  "coordinate_origin": "base rotation center in XY",
+  "Y_offset_cm": 0,
+  "base_yaw_direction_physically_confirmed": false,
+  "point_plane": "object_center",
+  "physical_accuracy_validated": false
+}

@@ -1,0 +1,148 @@
+{
+  "source": "F:\\BaiduNetdiskDownload\\机械臂（Jibot1）-221125.STEP",
+  "source_sha256": "a2861187fd3bb0db0bebee636ee8192f9de4c36ff3e2c38fd60debe87308f67d",
+  "units": "mm",
+  "cad_reference_pose": "straight stored STEP assembly; not motor zero or photographed standby",
+  "posture_joint_count": 5,
+  "gripper_actuator_count": 1,
+  "joint_axes_cad": [
+    {
+      "path": "root/NAUO7",
+      "shaft_line_point_mm": [
+        65.49999999999974,
+        -54.99999999999279,
+        60.72694286187275
+      ],
+      "shaft_direction": [
+        1.0,
+        3.560940894627318e-15,
+        -1.25099219644794e-16
+      ],
+      "horn_midplane_center_mm": [
+        65.74999999999976,
+        -54.99999999999279,
+        60.72694286187275
+      ],
+      "source_cylinder_radius_mm": 10,
+      "servo_id": 0,
+      "role": "base_yaw"
+    },
+    {
+      "path": "root/NAUO9/NAUO68",
+      "shaft_line_point_mm": [
+        118.4999999999997,
+        -79.24999999999537,
+        60.72694286187691
+      ],
+      "shaft_direction": [
+        1.6125039286296754e-33,
+        -1.0,
+        -2.524354896707238e-29
+      ],
+      "horn_midplane_center_mm": [
+        118.4999999999997,
+        -79.49999999999537,
+        60.72694286187691
+      ],
+      "source_cylinder_radius_mm": 10,
+      "servo_id": 1,
+      "role": "shoulder_pitch"
+    },
+    {
+      "path": "root/NAUO11/NAUO68",
+      "shaft_line_point_mm": [
+        222.50000000000065,
+        -79.24999999999237,
+        60.72694286187547
+      ],
+      "shaft_direction": [
+        -6.016644035648293e-17,
+        -1.0,
+        2.2208720694845905e-13
+      ],
+      "horn_midplane_center_mm": [
+        222.50000000000065,
+        -79.49999999999298,
+        60.72694286187553
+      ],
+      "source_cylinder_radius_mm": 10,
+      "servo_id": 2,
+      "role": "elbow_pitch"
+    },
+    {
+      "path": "root/NAUO13/NAUO68",
+      "shaft_line_point_mm": [
+        296.49999999999966,
+        -79.24999999999486,
+        60.72694286187882
+      ],
+      "shaft_direction": [
+        6.61980332968702e-16,
+        -1.0,
+        -2.2272558709818844e-13
+      ],
+      "horn_midplane_center_mm": [
+        296.49999999999966,
+        -79.49999999999548,
+        60.72694286187876
+      ],
+      "source_cylinder_radius_mm": 10,
+      "servo_id": 3,
+      "role": "wrist_pitch"
+    },
+    {
+      "path": "root/NAUO15/NAUO68",
+      "shaft_line_point_mm": [
+        362.49999999999983,
+        -55.74999999999551,
+        59.72694286187843
+      ],
+      "shaft_direction": [
+        1.0,
+        2.2062896442807382e-13,
+        2.4107799332432917e-15
+      ],
+      "horn_midplane_center_mm": [
+        362.75000000000045,
+        -55.74999999999545,
+        59.72694286187843
+      ],
+      "source_cylinder_radius_mm": 10,
+      "servo_id": 4,
+      "role": "wrist_roll"
+    }
+  ],
+  "gripper_servo_id": 5,
+  "pitch_link_axis_spacing_mm": [
+    104.00000000000095,
+    73.999999999999
+  ],
+  "servo_zero_pwm": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "servo_angle_direction": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "servo_limits_pwm": [
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+  ],
+  "camera_to_wrist_transform": null,
+  "grasp_tool_center_cad": null,
+  "online_motion_ready": false,
+  "mapping_note": "IDs follow the user Word document base-to-gripper order. CAD does not contain the actual PWM/angle calibration."
+}

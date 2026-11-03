@@ -1,0 +1,76 @@
+{
+  "status": "OFFLINE_FRAMEWORK_PENDING_MEASURED_PARAMETERS",
+  "board_part": "xc7z020clg400-2",
+  "controller_photo_revision": "ZLink V1.0.3",
+  "motion_hold": "POWER_AND_POSTURE_REVIEW_REQUIRED",
+  "architecture": {
+    "left_right": "base joint ID000",
+    "up_down": "shoulder/elbow joints ID001 and ID002; coordinated pose values pending",
+    "open_close": "gripper ID005",
+    "additional_wrist_control": "ID003 and ID004 reserved"
+  },
+  "user_report": {
+    "manually_moves_up_down_left_right": true,
+    "desired_base_working_span_degrees": 180,
+    "desired_base_left_degrees": 90,
+    "desired_base_right_degrees": 90,
+    "desired_span_is_measured_electrical_calibration": false
+  },
+  "paired_actions": {
+    "gripper_open_close": {"first": [{"id": 5, "p": 1300, "time_ms": 3000}], "second": [{"id": 5, "p": 1700, "time_ms": 3000}], "historically_observed": true},
+    "base_left_right": {"first": null, "second": null},
+    "arm_up_down": {"first": null, "second": null},
+    "observation_pose_and_return": {"first": null, "second": null}
+  },
+  "observation_pose_p_by_id": {"000": null, "001": null, "002": null, "003": null, "004": null, "005": null},
+  "reset_pose": {
+    "status": "RESET_TARGET_CONFIRMED_BY_MERCHANT_VIA_USER",
+    "source": "User relayed merchant confirmation: reset position is 135 degrees for every axis",
+    "angle_degrees_by_id": {"000": 135, "001": 135, "002": 135, "003": 135, "004": 135, "005": 135},
+    "p_by_id": {"000": 1500, "001": 1500, "002": 1500, "003": 1500, "004": 1500, "005": 1500},
+    "is_current_measured_pose": false,
+    "is_verified_tabletop_observation_pose": false,
+    "physical_reset_motion_verified": false,
+    "power_up_behavior_confirmed": false,
+    "automatic_command_enabled": false,
+    "note": "Confirmed reset targets do not establish current joint positions, safe transition paths or assembled working limits."
+  },
+  "angle_to_p_calibration": {
+    "status": "NOMINAL_MAPPING_CONFIRMED_BY_MERCHANT_VIA_USER",
+    "source": "User relayed merchant confirmation in chat: 0 to 270 degrees corresponds to P500 to P2500",
+    "reference": "Servo nominal angle; assembled joint zero and direction remain unverified",
+    "angle_min_degrees": 0,
+    "angle_max_degrees": 270,
+    "p_min": 500,
+    "p_max": 2500,
+    "assumption": "Linear endpoint mapping",
+    "p_to_angle_formula": "angle_degrees = (p - 500) * 270 / 2000",
+    "angle_to_p_formula": "p = round(500 + angle_degrees * 2000 / 270)",
+    "degrees_per_p_unit": 0.135,
+    "degrees_per_100_p_units": 13.5,
+    "p_rounding": "Nearest integer",
+    "assembled_joint_zero_verified": false,
+    "assembled_joint_directions_verified": false,
+    "assembled_physical_limits_verified": false,
+    "motion_targets_populated_from_nominal_mapping": false
+  },
+  "accepted_manufacturer_parameters": {
+    "status": "SUPPLIED_BY_MERCHANT_VIA_USER_ACCEPTED_FOR_ALL_SIX_SERVOS",
+    "ids": [0,1,2,3,4,5],
+    "minimum_angle_degrees": 0,
+    "maximum_angle_degrees": 270,
+    "minimum_p": 500,
+    "maximum_p": 2500,
+    "reset_angle_degrees": 135,
+    "reset_p": 1500,
+    "repeat_range_conversion_or_reset_questions": false,
+    "physical_endpoint_search_required": false,
+    "note": "Use the supplied manufacturer limits and reset data directly. This acceptance does not convert internal TX counters into physical movement evidence or prescribe simultaneous endpoint commands."
+  },
+  "physical_limits_deferred_at_user_request": true,
+  "limit_search_implemented": false,
+  "automatic_power_up_motion": false,
+  "start_button_required": false,
+  "model_location": "FPGA; camera performs acquisition/transport",
+  "note": "Merchant range 0..270 degrees/P500..2500 and all-six reset P1500 are accepted; do not ask for them again. Remaining observation/grasp pose values and actual movement response are separate from these supplied parameters."
+}

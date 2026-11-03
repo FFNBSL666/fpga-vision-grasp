@@ -1,0 +1,24 @@
+{
+  "version": "V4",
+  "build": {
+    "status": "PASS",
+    "part": "xc7z020clg400-2",
+    "wns_ns": 1.611,
+    "whs_ns": 0.057,
+    "drc_errors": 0,
+    "model_execution": "FPGA",
+    "move_ms": 5000,
+    "hardware_programmed": false,
+    "flash_written": false
+  },
+  "tests": {
+    "status": "PASS",
+    "cases": [
+      "PASS: V4_RADIUS_30MM_36864_OFFSETS_BOUNDARY_STABILITY_TWO_POINTS_UNCHANGED",
+      "PASS: COORDINATES_74_70_TO_40_57_BASE_P1500_1676_1454_1500_T5000_PER_JOINT_WAIT_AND_27165_EXACT_UART_BYTES",
+      "PASS: COORDINATES_20_70_TO_80_30_BASE_P1500_1318_1651_1500_T5000_PER_JOINT_WAIT_AND_25095_EXACT_UART_BYTES",
+      "PASS: COORDINATES_74_70_TO_74_70_BASE_P1500_1676_1676_1500_T5000_PER_JOINT_WAIT_AND_26745_EXACT_UART_BYTES"
+    ]
+  },
+  "scope": "RTL functional simulation and routed timing; no hardware programming"
+}

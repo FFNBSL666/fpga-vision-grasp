@@ -1,0 +1,56 @@
+{
+  "status": "UPDATED_BASE_ORIGIN_COORDINATE_TRIAL",
+  "observation_p": [
+    1500,
+    2047,
+    2241,
+    928,
+    1500,
+    1300
+  ],
+  "approach_p": [
+    1500,
+    1501,
+    2139,
+    1138,
+    1500,
+    1300
+  ],
+  "descent_open_p": [
+    1500,
+    1373,
+    2444,
+    1571,
+    1500,
+    1300
+  ],
+  "grip_p": [
+    1500,
+    1373,
+    2444,
+    1571,
+    1500,
+    1700
+  ],
+  "lift_p": [
+    1500,
+    1501,
+    2139,
+    1138,
+    1500,
+    1700
+  ],
+  "move_ms": 5000,
+  "start_delay_ms": 2000,
+  "object_center_relative_base_bottom_mm": 20,
+  "surface_relative_base_bottom_mm": 0,
+  "coordinate_basis": "Updated user workspace boundary values with the previous full-frame corner association",
+  "physical_grasp_confirmed": false,
+  "base_yaw_p_sign_for_left": 1,
+  "base_yaw_direction_physically_confirmed": false,
+  "model": "grid_offset_v3_20261024",
+  "model_execution": "FPGA",
+  "camera_role": "RGB565 transport only",
+  "coordinate_origin": "base rotation center in XY",
+  "Y_offset_cm": 0
+}

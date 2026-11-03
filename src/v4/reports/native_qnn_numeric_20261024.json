@@ -1,0 +1,28 @@
+{
+  "images": 99,
+  "confidence_decision_changes_vs_qonnx": 0,
+  "argmax_grid_changes_vs_qonnx": 0,
+  "max_head_logit_error_vs_qonnx": 0.008551663254241504,
+  "max_center_delta_pixels_vs_qonnx": 1.3044411524862867,
+  "classes": {
+    "finger_tip": {
+      "truth": 64,
+      "predicted": 68,
+      "matched": 63,
+      "mean_center_error_pixels": 9.20462938032067
+    },
+    "object": {
+      "truth": 64,
+      "predicted": 66,
+      "matched": 64,
+      "mean_center_error_pixels": 2.410769495347634
+    }
+  },
+  "empty_images": 18,
+  "empty_false_positive_images": 1,
+  "status": "PASS",
+  "comparison_note": "Integer native backend, not float-bit-exact FINN HLS. Coordinate floor/LUT is explicitly compared.",
+  "seconds": 9.391000000000076,
+  "rtl_validation": "NOT_RUN",
+  "real_board_validation": "NOT_RUN"
+}

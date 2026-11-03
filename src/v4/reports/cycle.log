@@ -1,0 +1,138 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/model/model_diagnostic_core.v" into library work
+INFO: [VRFC 10-311] analyzing module model_diagnostic_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/model/native_qnn.v" into library work
+INFO: [VRFC 10-311] analyzing module native_qnn
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/model/qnn_parameter_rom.v" into library work
+INFO: [VRFC 10-311] analyzing module qnn_parameter_rom
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/model/qnn_ram8.v" into library work
+INFO: [VRFC 10-311] analyzing module qnn_ram8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/model/qnn_result_decode.v" into library work
+INFO: [VRFC 10-311] analyzing module qnn_result_decode
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/model/qnn_sequential_core.v" into library work
+INFO: [VRFC 10-311] analyzing module qnn_sequential_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/camera/camera_frame_rx.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_frame_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/camera/camera_frame_store.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_frame_store
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/camera/camera_rgb_pipeline.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_rgb_pipeline
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/camera/camera_rgb565_rx.v" into library work
+INFO: [VRFC 10-311] analyzing module camera_rgb565_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/camera/rgb565_resize96.v" into library work
+INFO: [VRFC 10-311] analyzing module rgb565_resize96
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/common/uart_rx.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/common/uart_tx.v" into library work
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/servo/servo_ascii_encoder.v" into library work
+INFO: [VRFC 10-311] analyzing module servo_ascii_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/servo/servo_group_encoder.v" into library work
+INFO: [VRFC 10-311] analyzing module servo_group_encoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/servo/base_servo_link.v" into library work
+INFO: [VRFC 10-311] analyzing module base_servo_link
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/servo/servo_command_master.v" into library work
+INFO: [VRFC 10-311] analyzing module servo_command_master
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/observation_frame_gate.v" into library work
+INFO: [VRFC 10-311] analyzing module observation_frame_gate
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/pointing_target_selector.v" into library work
+INFO: [VRFC 10-311] analyzing module pointing_target_selector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/pixel_pose_lookup.v" into library work
+INFO: [VRFC 10-311] analyzing module pixel_pose_lookup
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/vertical_path_lookup.v" into library work
+INFO: [VRFC 10-311] analyzing module vertical_path_lookup
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/pick_place_target_mapper.v" into library work
+INFO: [VRFC 10-311] analyzing module pick_place_target_mapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/integration/confirmed_grasp_core.v" into library work
+INFO: [VRFC 10-311] analyzing module confirmed_grasp_core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_coordinate_base.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_coordinate_base
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe tb_coordinate_base -s coordinate_base_test 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3645] port 'active_joint' remains unconnected for this instance [C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_coordinate_base.v:18]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.vertical_path_lookup
+Compiling module work.servo_ascii_encoder
+Compiling module work.servo_group_encoder
+Compiling module work.uart_tx(CLK_HZ=10000,BAUD=1000)
+Compiling module work.servo_command_master(CLK_HZ=1000...
+Compiling module work.base_servo_link(CLK_HZ=10000,BAU...
+Compiling module work.uart_rx(CLK_HZ=10000,BAUD=1000)
+Compiling module work.camera_rgb565_rx(CLK_HZ=10000)
+Compiling module work.camera_frame_store
+Compiling module work.rgb565_resize96
+Compiling module work.camera_rgb_pipeline(CLK_HZ=10000...
+Compiling module work.observation_frame_gate(SETTLE_MS...
+Compiling module work.qnn_ram8
+Compiling module work.qnn_ram8(ADDR_BITS=16)
+Compiling module work.qnn_parameter_rom
+Compiling module work.qnn_sequential_core
+Compiling module work.qnn_result_decode
+Compiling module work.native_qnn
+Compiling module work.pixel_pose_lookup
+Compiling module work.pixel_pose_lookup(MEM_FILE="plac...
+Compiling module work.pick_place_target_mapper
+Compiling module work.confirmed_grasp_core(CLK_HZ=1000...
+Compiling module work.tb_coordinate_base
+Built simulation snapshot coordinate_base_test
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/work/coordinate_test/xsim.dir/coordinate_base_test/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Mon Nov  2 21:04:42 2026...
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/coordinate_base_test/xsim_script.tcl
+# xsim {coordinate_base_test} -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+PASS: COORDINATES_74_70_TO_40_57_BASE_P1500_1676_1454_1500_T5000_PER_JOINT_WAIT_AND_27165_EXACT_UART_BYTES
+$finish called at time : 452045 ms : File "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_coordinate_base.v" Line 125
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 217.984 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 21:04:59 2026...
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/coordinate_base_test/xsim_script.tcl
+# xsim {coordinate_base_test} -testplusarg left_to_right -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+PASS: COORDINATES_20_70_TO_80_30_BASE_P1500_1318_1651_1500_T5000_PER_JOINT_WAIT_AND_25095_EXACT_UART_BYTES
+$finish called at time : 426763 ms : File "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_coordinate_base.v" Line 125
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 218.109 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 21:05:12 2026...
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/coordinate_base_test/xsim_script.tcl
+# xsim {coordinate_base_test} -testplusarg same_bearing -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+PASS: COORDINATES_74_70_TO_74_70_BASE_P1500_1676_1676_1500_T5000_PER_JOINT_WAIT_AND_26745_EXACT_UART_BYTES
+$finish called at time : 446924 ms : File "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_coordinate_base.v" Line 125
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 218.684 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 21:05:26 2026...

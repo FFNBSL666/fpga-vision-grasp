@@ -1,0 +1,1249 @@
+{
+    "ltx_root": {
+        "version": 4,
+        "minor": 0,
+        "ltx_data": [
+            {
+                "name": "EDA_PROBESET",
+                "active": true,
+                "debug_cores": [
+                    {
+                        "type": "XSDB_V3",
+                        "name": "dbg_hub",
+                        "spec": "labtools_xsdbm_v3",
+                        "clk_input_freq_hz": "50000000"
+                    },
+                    {
+                        "type": "VIO_V2",
+                        "name": "confirmed.monitor",
+                        "spec": "labtools_vio_v3",
+                        "ipName": "vio",
+                        "core_location": {
+                            "user_chain": 1,
+                            "slave_index": 0,
+                            "bscan_switch_index": 0
+                        },
+                        "uuid": "E1B780702C1D518DB6E85EB1BA4EF6C9",
+                        "pins": [
+                            {
+                                "name": "probe_in0",
+                                "id": 0,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 3,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.confirmed_state",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.confirmed_state[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.confirmed_state[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.confirmed_state[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.confirmed_state[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in1",
+                                "id": 1,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 1,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.confirmed_busy",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in2",
+                                "id": 2,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 2,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.confirmed_fault",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in3",
+                                "id": 3,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 3,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.error_code",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.error_code[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.error_code[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in4",
+                                "id": 4,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 4,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.sent",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.sent[31]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[30]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[29]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[28]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[27]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[26]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[25]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[24]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[23]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[22]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[21]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[20]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[19]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[18]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[17]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[16]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.sent[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in5",
+                                "id": 5,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 5,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.completed",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.completed[31]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[30]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[29]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[28]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[27]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[26]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[25]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[24]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[23]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[22]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[21]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[20]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[19]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[18]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[17]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[16]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.completed[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in6",
+                                "id": 6,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 49,
+                                "portIndex": 6,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.detections",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.detections[49]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[48]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[47]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[46]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[45]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[44]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[43]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[42]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[41]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[40]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[39]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[38]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[37]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[36]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[35]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[34]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[33]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[32]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[31]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[30]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[29]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[28]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[27]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[26]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[25]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[24]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[23]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[22]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[21]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[20]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[19]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[18]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[17]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[16]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.detections[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in7",
+                                "id": 7,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 7,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.valid",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in8",
+                                "id": 8,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 7,
+                                "portIndex": 8,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.frame_id",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.frame_id[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.frame_id[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in9",
+                                "id": 9,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 9,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.target",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.target[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.target[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in10",
+                                "id": 10,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 10,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.ready",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in11",
+                                "id": 11,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 11,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.done",
+                                        "isBus": false
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in12",
+                                "id": 12,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 1,
+                                "portIndex": 12,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.selection_phase",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.selection_phase[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.selection_phase[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in13",
+                                "id": 13,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 13,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.destination",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.destination[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in14",
+                                "id": 14,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 14,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.base_command_p",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.base_command_p[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_p[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in15",
+                                "id": 15,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 15,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.base_command_count",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.base_command_count[31]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[30]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[29]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[28]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[27]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[26]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[25]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[24]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[23]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[22]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[21]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[20]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[19]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[18]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[17]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[16]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.base_command_count[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in16",
+                                "id": 16,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 16,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.source_base_p",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.source_base_p[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.source_base_p[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in17",
+                                "id": 17,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 15,
+                                "portIndex": 17,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.destination_base_p",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.destination_base_p[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.destination_base_p[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in18",
+                                "id": 18,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 2,
+                                "portIndex": 18,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.active_joint",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.active_joint[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.active_joint[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.active_joint[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_in19",
+                                "id": 19,
+                                "type": "DATA",
+                                "direction": "IN",
+                                "isVector": true,
+                                "leftIndex": 0,
+                                "rightIndex": 31,
+                                "portIndex": 19,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.actuator_command_count",
+                                        "isBus": true,
+                                        "subnets": [
+                                            {
+                                                "name": "confirmed.actuator_command_count[31]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[30]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[29]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[28]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[27]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[26]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[25]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[24]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[23]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[22]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[21]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[20]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[19]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[18]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[17]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[16]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[15]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[14]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[13]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[12]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[11]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[10]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[9]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[8]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[7]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[6]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[5]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[4]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[3]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[2]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[1]"
+                                            },
+                                            {
+                                                "name": "confirmed.actuator_command_count[0]"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "probe_out0",
+                                "id": 20,
+                                "type": "DATA",
+                                "direction": "OUT",
+                                "isVector": false,
+                                "leftIndex": 0,
+                                "rightIndex": 0,
+                                "portIndex": 0,
+                                "nets": [
+                                    {
+                                        "name": "confirmed.capture_only",
+                                        "isBus": false
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

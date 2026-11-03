@@ -1,0 +1,97 @@
+{
+  "status": "LATEST_X_MINUS11_TO11_Y10_TO25_CM_SIMULATION_PASS_BIT_NOT_REBUILT",
+  "workspace_calibrated": false,
+  "board_test_mapping_ready": true,
+  "valid_pixels": 9216,
+  "mapping_basis": "Updated user workspace boundary values with the previous full-frame corner association",
+  "corners_model_pixels": [
+    [
+      0,
+      95
+    ],
+    [
+      95,
+      95
+    ],
+    [
+      95,
+      0
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "corners_ik_forward_left_mm": [
+    [
+      100,
+      110
+    ],
+    [
+      100,
+      -110
+    ],
+    [
+      250,
+      -110
+    ],
+    [
+      250,
+      110
+    ]
+  ],
+  "homography_model_pixel_to_forward_left_mm": [
+    [
+      0,
+      -1.5789473684210527,
+      250
+    ],
+    [
+      -2.3157894736842106,
+      0,
+      110
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "corner_fit_residual_mm": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "user_axes": "X right, Y forward; base XY origin (0,0) cm; no Y offset",
+  "object_bottom_relative_base_bottom_mm": 0,
+  "object_center_relative_base_bottom_mm": 20,
+  "object_center_relative_shoulder_mm": -74.5,
+  "approach_clearance_mm": 70,
+  "base_yaw_p_sign_for_left": 1,
+  "base_yaw_direction_physically_confirmed": false,
+  "terminal_pitch_degrees_counts": {
+    "130": 244,
+    "135": 4368,
+    "140": 856,
+    "145": 994,
+    "150": 1230,
+    "155": 942,
+    "160": 548,
+    "165": 34
+  },
+  "center_plane_parallax_corrected": false,
+  "physical_accuracy_validated": false,
+  "first_trial_not_final_calibration": true,
+  "runtime_inference_and_coordinate_lookup": "FPGA",
+  "hardware_programmed": false,
+  "rom_sha256": "622a726c0e397db6bb3ba1612afcafc57b693de053d722ac0f5d83eea99b4d1c",
+  "point_plane": "object_center",
+  "source_and_place_contact_model_z_mm": 20,
+  "approach_model_z_mm": 90,
+  "single_X_reflection_at_pixel_lookup": true,
+  "radius_bin_min_mm": 100.00670337643174,
+  "radius_bin_max_mm": 273.1300056749533,
+  "radius_bin_step_mm": 1.861540884930335,
+  "radius_quantization_max_mm": 0.9306967956086964
+}

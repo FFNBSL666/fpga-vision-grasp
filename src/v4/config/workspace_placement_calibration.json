@@ -1,0 +1,62 @@
+{
+  "status": "LATEST_BOUNDARIES_X_MINUS11_TO11_Y10_TO25_CM",
+  "point_plane": "finger_surface",
+  "observation_p": [
+    1500,
+    2047,
+    2241,
+    928,
+    1500,
+    1300
+  ],
+  "object_center_relative_base_bottom_mm": 20,
+  "surface_relative_base_bottom_mm": 0,
+  "base_yaw_p_sign_for_left": 1,
+  "points": [
+    {
+      "model_pixel": [
+        0,
+        95
+      ],
+      "robot_xy_mm": [
+        100,
+        110
+      ]
+    },
+    {
+      "model_pixel": [
+        95,
+        95
+      ],
+      "robot_xy_mm": [
+        100,
+        -110
+      ]
+    },
+    {
+      "model_pixel": [
+        95,
+        0
+      ],
+      "robot_xy_mm": [
+        250,
+        -110
+      ]
+    },
+    {
+      "model_pixel": [
+        0,
+        0
+      ],
+      "robot_xy_mm": [
+        250,
+        110
+      ]
+    }
+  ],
+  "note": "At the same four measured XY locations, capture fingertip touching the support surface after removing the cube. The cube-center plane cannot be reused for an empty-table fingertip point.",
+  "coordinate_origin": "base rotation center in XY",
+  "Y_offset_cm": 0,
+  "base_yaw_direction_physically_confirmed": false,
+  "physical_accuracy_validated": false
+}

@@ -1,0 +1,52 @@
+{
+  "status": "OFFLINE_GEOMETRIC_PREVIEW_ONLY",
+  "geometry_source": "F:\\BaiduNetdiskDownload\\机械臂（Jibot1）-221125.STEP",
+  "geometry_source_sha256": "a2861187fd3bb0db0bebee636ee8192f9de4c36ff3e2c38fd60debe87308f67d",
+  "purpose": "Bent observation pose with terminal axis facing diagonally toward the tabletop",
+  "relative_cad_angles_degrees": [
+    0,
+    25,
+    35,
+    75,
+    0
+  ],
+  "reset_servo_angle_degrees": 135,
+  "reset_p_by_id": {
+    "000": 1500,
+    "001": 1500,
+    "002": 1500,
+    "003": 1500,
+    "004": 1500,
+    "005": 1500
+  },
+  "linear_mapping": "P = round(500 + degrees * 2000 / 270)",
+  "geometry_reset_alignment": "ASSUMED_FOR_OFFLINE_PREVIEW; NOT_PHYSICALLY_CALIBRATED",
+  "direction_dependent_p_options_not_motion_targets": {
+    "000": [
+      1500
+    ],
+    "001": [
+      1315,
+      1685
+    ],
+    "002": [
+      1241,
+      1759
+    ],
+    "003": [
+      944,
+      2056
+    ],
+    "004": [
+      1500
+    ]
+  },
+  "known_gripper_open_p": 1300,
+  "camera_to_wrist_transform_calibrated": false,
+  "optical_axis_shown": false,
+  "real_fov_simulated": false,
+  "hardware_download_performed": false,
+  "hardware_command_generated": false,
+  "runtime_motion_enable": false,
+  "note": "Arrow indicates CAD terminal-axis direction only. Physical servo signs, current positions, paths, tool center and camera mounting transform are not inferred from photographs."
+}

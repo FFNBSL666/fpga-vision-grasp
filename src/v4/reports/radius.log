@@ -1,0 +1,35 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/pixel_pose_lookup.v" into library work
+INFO: [VRFC 10-311] analyzing module pixel_pose_lookup
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/rtl/vision/pick_place_target_mapper.v" into library work
+INFO: [VRFC 10-311] analyzing module pick_place_target_mapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_v4_radius_selection.v" into library work
+INFO: [VRFC 10-311] analyzing module tb_v4_radius_selection
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: F:/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe tb_v4_radius_selection -s v4_radius_test 
+Multi-threading is on. Using 18 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module work.pixel_pose_lookup
+Compiling module work.pixel_pose_lookup(MEM_FILE="plac...
+Compiling module work.pick_place_target_mapper
+Compiling module work.tb_v4_radius_selection
+Built simulation snapshot v4_radius_test
+
+****** xsim v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source xsim.dir/v4_radius_test/xsim_script.tcl
+# xsim {v4_radius_test} -autoloadwcfg -runall
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+run -all
+PASS: V4_RADIUS_30MM_36864_OFFSETS_BOUNDARY_STABILITY_TWO_POINTS_UNCHANGED
+$finish called at time : 376800 ns : File "C:/Users/admin/AppData/Local/Temp/v4_submit_78ad61428357457684d45c9bab321028/v4/sim/tb_v4_radius_selection.v" Line 90
+exit
+INFO: [Common 17-206] Exiting xsim at Mon Nov  2 21:04:36 2026...

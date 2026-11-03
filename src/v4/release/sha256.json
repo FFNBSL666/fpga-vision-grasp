@@ -1,0 +1,786 @@
+[
+  {
+    "path": "readme.md",
+    "sha256": "de2f16e16baccb22f248753dec16093668393d3ae60559308bc7330f69dc4e4f"
+  },
+  {
+    "path": "submission.md",
+    "sha256": "1a1dcd985fe5c7934cff7116f8e0236304e14951182107eea8a544f025c9d8a7"
+  },
+  {
+    "path": "camera/main.py",
+    "sha256": "bc06d1d7eee4b5fe7a490fe55835b224849afcaea6f1c4bcbb577ef25da8e99d"
+  },
+  {
+    "path": "config/arm_action_framework_20261024.json",
+    "sha256": "febf78dbd83c318c99fa80db6ec0649d5918099b0e55ed708f83cad5ff36cff5"
+  },
+  {
+    "path": "config/arm_geometry_from_step.json",
+    "sha256": "1c1329e65d79269e137045c2c71d0942fed1268c737e1a9c97c36f408977b501"
+  },
+  {
+    "path": "config/confirmed_grasp_20261025.json",
+    "sha256": "646e3bd6976ca2586fd9cafa518570d3035302a1802a2ffc8bfeeea4e6681b2d"
+  },
+  {
+    "path": "config/direct_corner_trial_20261026.json",
+    "sha256": "78880514f367996b7266673e41d48630b8406d6b06584e823a60d27fa88b810a"
+  },
+  {
+    "path": "config/observation_pose_design_20261025.json",
+    "sha256": "0b6adfa872c9e51daf70476fcaf53b7c1d9186f79f0a210c0c4f4afb08aa96e0"
+  },
+  {
+    "path": "config/pixel_radius_lut.mem",
+    "sha256": "6a359ad0849c69730356bcd8980a00fd2e40d28895db701fdc10d4795d1bbfc6"
+  },
+  {
+    "path": "config/placement_mapping_status.json",
+    "sha256": "1b3880058b2fe2fe76821a2bdf13f3fe37a0652596fa6f1a0ba510c079254c39"
+  },
+  {
+    "path": "config/placement_pose_lut.mem",
+    "sha256": "a849028bf3936d39310ba0e172952d2a6828ad675e6e041707dd0a7cc819183f"
+  },
+  {
+    "path": "config/v4_selection_policy.json",
+    "sha256": "1e524ba3771764e7043eefd69f890129ede9529b5787fbf9fee4f9fdedc246c2"
+  },
+  {
+    "path": "config/vertical_path_lut.mem",
+    "sha256": "8b1cc2a9d2db539ec993a2bc57e5af66cfca6e233c8f8226146aadc8ae589dc3"
+  },
+  {
+    "path": "config/workspace_boundary_20261027.json",
+    "sha256": "7077eaf342c52fb31387513a1a118d48db26de6904c2e10ea1d4ebabb925fbed"
+  },
+  {
+    "path": "config/workspace_mapping_status.json",
+    "sha256": "e9516299c45f2248e160bb2339e43347814108dafff81613f95a2822d4c9a340"
+  },
+  {
+    "path": "config/workspace_placement_calibration.json",
+    "sha256": "9b49a28ae25c7b90b1a91fee6eb2f4879b7ff1b178155ea23e9985bbdc01b6fe"
+  },
+  {
+    "path": "config/workspace_plane_calibration.json",
+    "sha256": "37cdb1e2b933991b40f57087ca640b3bc51cf1383ce816c76ba913975fe59ec1"
+  },
+  {
+    "path": "config/workspace_pose_lut.mem",
+    "sha256": "a849028bf3936d39310ba0e172952d2a6828ad675e6e041707dd0a7cc819183f"
+  },
+  {
+    "path": "constraints/board_template.xdc",
+    "sha256": "fa2814f1420f6e907e00cbfe7b2cef3bea7d33d36951719b571a92452d68feb7"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor_ooc.xdc",
+    "sha256": "4772f3e19c309234e1e348f80ee5310d27592ec3ab72d4a42fcc852e83af64a8"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor_sim_netlist.v",
+    "sha256": "0c1b51f0f0a4ae1d85addf1379ccf83c9906b7ab7cb00a6ac105c816dc120512"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor_sim_netlist.vhdl",
+    "sha256": "91b63d6bcd8a89236dd56050a4a74a9794f59a643f7a0e5f96b6c72c39ddc102"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor_stub.v",
+    "sha256": "01a7dd4492da041bfdf8946951eb51946c38fe6d64ad57c0c3eac3f203f80993"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor_stub.vhdl",
+    "sha256": "3fee6771c7006fbcdd33b1c4881f5a202cf83c272d15edd37f9a56b0a317d31f"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor.dcp",
+    "sha256": "4548ec8f812d5fd9a9c794e7735c5a5214a8c2183666b1939a1dcabfb316275f"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor.veo",
+    "sha256": "08676a065cc89e9ce094e668d6a0eb2c0aa43bd68e6fcea91b9dcd11e003ec6a"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor.vho",
+    "sha256": "9ea1d38fdbbaf8566394b152ee65d191ad132b2cad3c7e1f116d0ef8b4c27f7f"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor.xci",
+    "sha256": "8cd037da8ad750ab3e62e58a6a2868402d5cb848a81c0815e7995270dcbd96c3"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor.xdc",
+    "sha256": "b95fbc7f516f03f193d9e5721f3bfd7cf71d6b9f48c4754c926c6cd853304625"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/confirmed_grasp_monitor.xml",
+    "sha256": "ab4dd08e295e249ca6096ded18e729269201673254cb9e9dc61c4e8faddc309e"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/doc/vio_v3_0_changelog.txt",
+    "sha256": "860ff9535410a1562ab4da4b3dc6e2c35c5389090371376e880b310b409c9217"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/ltlib_v1_0_vl_rfs.v",
+    "sha256": "93b23866554cc1367a96412fe8ecec1adab043da6b7267276989ef8db05d0cbe"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/vio_v3_0_19_vio_include.v",
+    "sha256": "2b8dc1b127bacbb92b8248de75d6b3aecf386e6b00178de53616c9b0eba49cdd"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/vio_v3_0_syn_rfs.v",
+    "sha256": "e65a13346dfde4a5eca587be7df80a2c5ebc9cd8551e10af983f5b93b2b89a3e"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/xsdbs_v1_0_vl_rfs.v",
+    "sha256": "96a97c41bfefe015cbfee215b00c83d6d47d49c1254a64e95e497d5423d631f2"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/verilog/ltlib_v1_0_0_lib_fn.vh",
+    "sha256": "933224cc34637fe4cd4441f4d46b3f1008a38cea3119547f5588b870aba0f92f"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/verilog/ltlib_v1_0_0_ver.vh",
+    "sha256": "0ecfe79bd3d84e0fb5008c5f52fccfc3e0ce1deb430ead628578665dba7d7e2d"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/verilog/xsdbs_v1_0_2_i2x.vh",
+    "sha256": "ff8560055d7c5b7d21ff5e003064a150af0567a8ea36699b2760959c3a038611"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/hdl/verilog/xsdbs_v1_0_2_in.vh",
+    "sha256": "f6f5fdaed464bc984e94b27034ebf6bbbae273fa38f747c547d6bc0c4899a75e"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/sim/confirmed_grasp_monitor.v",
+    "sha256": "4c3f6a3922abee106abc7f7151f404f4b1039d60e14a14128c8141363aeb9f5d"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor/synth/confirmed_grasp_monitor.v",
+    "sha256": "ebed4a5ee3fa589fddc7f2a9880a48e96a9091f025c131ae8db1b6f8b3879ddd"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor_ooc.xdc",
+    "sha256": "4772f3e19c309234e1e348f80ee5310d27592ec3ab72d4a42fcc852e83af64a8"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor_sim_netlist.v",
+    "sha256": "b365a55d28bb40566838912e3a54dc95bed9b4accbc3b2b7072ed9c25d6ace82"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor_sim_netlist.vhdl",
+    "sha256": "5b624cd6c63ab020db53df5d27347d014bbe4964b8890e41417e0b538fd036fc"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor_stub.v",
+    "sha256": "53e46047f83c2c690bb93e713476d1b83ec1996eef322dee107bc05c24a73fbc"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor_stub.vhdl",
+    "sha256": "cb725c3f0a3aa20ac65ee8f7413d13e05bb04a2d6b61b18f1c423c5987295310"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor.dcp",
+    "sha256": "364c51dce1a5ae466fd6a277ab59ab6afd6a37e8e0c2e1fcfc34962b387a4575"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor.veo",
+    "sha256": "08676a065cc89e9ce094e668d6a0eb2c0aa43bd68e6fcea91b9dcd11e003ec6a"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor.vho",
+    "sha256": "9ea1d38fdbbaf8566394b152ee65d191ad132b2cad3c7e1f116d0ef8b4c27f7f"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor.xci",
+    "sha256": "8cd037da8ad750ab3e62e58a6a2868402d5cb848a81c0815e7995270dcbd96c3"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor.xdc",
+    "sha256": "b95fbc7f516f03f193d9e5721f3bfd7cf71d6b9f48c4754c926c6cd853304625"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/confirmed_grasp_monitor.xml",
+    "sha256": "784d02a33ced6261378f503097ec467b44c6afcebe3f815c613c1f5ce23374e5"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/doc/vio_v3_0_changelog.txt",
+    "sha256": "860ff9535410a1562ab4da4b3dc6e2c35c5389090371376e880b310b409c9217"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/ltlib_v1_0_vl_rfs.v",
+    "sha256": "93b23866554cc1367a96412fe8ecec1adab043da6b7267276989ef8db05d0cbe"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/vio_v3_0_19_vio_include.v",
+    "sha256": "2b8dc1b127bacbb92b8248de75d6b3aecf386e6b00178de53616c9b0eba49cdd"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/vio_v3_0_syn_rfs.v",
+    "sha256": "e65a13346dfde4a5eca587be7df80a2c5ebc9cd8551e10af983f5b93b2b89a3e"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/xsdbs_v1_0_vl_rfs.v",
+    "sha256": "96a97c41bfefe015cbfee215b00c83d6d47d49c1254a64e95e497d5423d631f2"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/verilog/ltlib_v1_0_0_lib_fn.vh",
+    "sha256": "933224cc34637fe4cd4441f4d46b3f1008a38cea3119547f5588b870aba0f92f"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/verilog/ltlib_v1_0_0_ver.vh",
+    "sha256": "0ecfe79bd3d84e0fb5008c5f52fccfc3e0ce1deb430ead628578665dba7d7e2d"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/verilog/xsdbs_v1_0_2_i2x.vh",
+    "sha256": "ff8560055d7c5b7d21ff5e003064a150af0567a8ea36699b2760959c3a038611"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/hdl/verilog/xsdbs_v1_0_2_in.vh",
+    "sha256": "f6f5fdaed464bc984e94b27034ebf6bbbae273fa38f747c547d6bc0c4899a75e"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/sim/confirmed_grasp_monitor.v",
+    "sha256": "4c3f6a3922abee106abc7f7151f404f4b1039d60e14a14128c8141363aeb9f5d"
+  },
+  {
+    "path": "ip/confirmed_grasp_monitor_1/synth/confirmed_grasp_monitor.v",
+    "sha256": "ebed4a5ee3fa589fddc7f2a9880a48e96a9091f025c131ae8db1b6f8b3879ddd"
+  },
+  {
+    "path": "model_candidates/native_qnn_v3_20261024/qnn_affine.mem",
+    "sha256": "0a6ad3d9a1ce9bcd571f5ae8d36995d22ccf501a19f6c8f3f12fcac76eee8092"
+  },
+  {
+    "path": "model_candidates/native_qnn_v3_20261024/qnn_input.mem",
+    "sha256": "03f3d0b8a55329fdaeb868c55d2e1b0c2fe90f348674175240d70191fb7be816"
+  },
+  {
+    "path": "model_candidates/native_qnn_v3_20261024/qnn_sigmoid.mem",
+    "sha256": "867ebcc7e4438c042fc7b008102abaa01ffa8d478f87197ae733ad936c06bcec"
+  },
+  {
+    "path": "model_candidates/native_qnn_v3_20261024/qnn_thresholds.mem",
+    "sha256": "c7c9388ef74d547e68d5e72c4ab1ae708518c4e4eb7a67501e34275494905ebb"
+  },
+  {
+    "path": "model_candidates/native_qnn_v3_20261024/qnn_weights.mem",
+    "sha256": "b72e1f7356aa7c7292acb32ac89f7ec0cc02fc56e7a42e63750700c316daf751"
+  },
+  {
+    "path": "model_development/model_candidates/grid_offset_v3_20261024/candidate_qonnx.onnx",
+    "sha256": "1287bdf72ef4c314dd19fbd0d4b000588f5ba8b3d6032a2458093ea3ff2a5334"
+  },
+  {
+    "path": "model_development/model_candidates/grid_offset_v3_20261024/candidate.pt",
+    "sha256": "92394ad56a0b6363e84f381c408b9c4b5ae42989bce8385d7623ba639bdbb85b"
+  },
+  {
+    "path": "model_development/model_candidates/grid_offset_v3_20261024/report.json",
+    "sha256": "ea06b6ef50976b5a582ede7acd1573698ae575f44bd27439d917630600791fb9"
+  },
+  {
+    "path": "model_development/scripts/check_native_qnn.py",
+    "sha256": "9e74a1c133c8c28e056416beccba524d7a9be98e332a5226b252c6455e9d636c"
+  },
+  {
+    "path": "model_development/scripts/convert_finn_candidate.py",
+    "sha256": "48e4e6cb14beb77d9446dfb2d07566ccf26abd742fac1fc24a8fbf4b195e88fc"
+  },
+  {
+    "path": "model_development/scripts/export_integer_qnn.py",
+    "sha256": "85a83de71c458301bfb2de83d35817a4ff36f89eff068096f237daf2335debe6"
+  },
+  {
+    "path": "model_development/scripts/prepare_camera_vectors.py",
+    "sha256": "a272031be5bba8cd0a10e7ee58ed8e8d86cc7892706b45913e6e51461285ad34"
+  },
+  {
+    "path": "model_development/scripts/train_grid_offset_candidate.py",
+    "sha256": "24a9369134135178392dedccb2e726c3edc9ab5178c8f55b66cde4c69cf7840a"
+  },
+  {
+    "path": "model_development/scripts/train_qnn_detector_v2_96.py",
+    "sha256": "3e19aa5336dda234e46a1d12f7df64963cf671ed0567690f78d164a1246ba5ba"
+  },
+  {
+    "path": "release/build_metrics.json",
+    "sha256": "daa33eb93ea71683d30483c9f114e9ecd542ed4faada4601828e898f2aae3eaf"
+  },
+  {
+    "path": "release/drc.rpt",
+    "sha256": "22eff13dc75050d9272281ad8d2e777aafc7c815c03d21d3d2823dc3a0765d64"
+  },
+  {
+    "path": "release/io.rpt",
+    "sha256": "2a8fe2ef492704f5af78bfffb1868c1ade1e21b4bfb084d3335922d41e02afae"
+  },
+  {
+    "path": "release/timing.rpt",
+    "sha256": "9816b60f27749cf046ce60db52457895029a94c52b3d2f6f475f263850c3b585"
+  },
+  {
+    "path": "release/utilization.rpt",
+    "sha256": "3f1820a821258ba34aa2f7397972abe893c3ed23321759d85b11df83eed88d07"
+  },
+  {
+    "path": "release/v4.bit",
+    "sha256": "38ddb641e16cd8d02d14f3f0ea6fadf3682f81cf4cffded9c8a9a838f13f72bf"
+  },
+  {
+    "path": "release/v4.dcp",
+    "sha256": "80f3441f77657fd00fd789cb2114a32c8c5a43f8f4a305b6541144e27b135eff"
+  },
+  {
+    "path": "release/v4.ltx",
+    "sha256": "01394237b04491fd649d1e200d695323ddaf5f4f5bc72edb67890fb2bc0c4103"
+  },
+  {
+    "path": "reports/cycle.log",
+    "sha256": "6f7472b2029564aa18d4da4b09652cf5312fe86fae9a9dff1d4ac6f2bd6a5863"
+  },
+  {
+    "path": "reports/delivery.json",
+    "sha256": "89e381dad2201e0d6ea8f2850ad530eeac73e9c2c2c0701956eb802296ff283f"
+  },
+  {
+    "path": "reports/native_qnn_numeric_20261024.json",
+    "sha256": "1ee11194e9eb91cda99011bd33eee1bbf460f7dc98b05a204f9d2602ed181b2d"
+  },
+  {
+    "path": "reports/native_qnn_rtl_20261024.json",
+    "sha256": "d8ac4727782eb9ac7d1ab845a64785eeb3d09f680e340a53b62dfbf39fea1594"
+  },
+  {
+    "path": "reports/radius.log",
+    "sha256": "4ddbe526056de3624a000d38e243eb5ab1537d7a31b779b74c8749cab97affbe"
+  },
+  {
+    "path": "rtl/fpga_board_top.v",
+    "sha256": "a302e70f0b0398654c8815e5f6f2f4353f09fb5966f9e50acb38b403c50ff762"
+  },
+  {
+    "path": "rtl/fpga_grasp_top.v",
+    "sha256": "dbe38536c3f83c87fa196fa32ef3206b67afa0c18e9cc6f4dbbd7f51bcd15527"
+  },
+  {
+    "path": "rtl/camera/camera_frame_rx.v",
+    "sha256": "7a1f17d506a663475a3f8957d9539fe52262725e897f35934570da278af9f073"
+  },
+  {
+    "path": "rtl/camera/camera_frame_store.v",
+    "sha256": "c797c281a2a9a1b021d4c5c0abaeacb279afba1e40645ffc4b81c5501de3bfc3"
+  },
+  {
+    "path": "rtl/camera/camera_rgb_pipeline.v",
+    "sha256": "32a995b3291f3798c311a95b9e03d6c510d681ee7db962f0434b896a7afe3ab7"
+  },
+  {
+    "path": "rtl/camera/camera_rgb565_rx.v",
+    "sha256": "c0a53813c4f90f88e861f8e369b76de3fe20e9ec7900d4366cfe91fddc0032ba"
+  },
+  {
+    "path": "rtl/camera/rgb565_resize96.v",
+    "sha256": "b7667e8fa86cfb9083cd39378599cf70b5e05e1123d4d3037c6d53c6568dfc7e"
+  },
+  {
+    "path": "rtl/common/input_sync.v",
+    "sha256": "821e87f648aa0122bf434ac2656afead23c78e72e0c0605ab297441b75e6bc4c"
+  },
+  {
+    "path": "rtl/common/reset_sync.v",
+    "sha256": "da19bd2180375b7a66fe64762b15d885dae41712dfd0eb7c222a6b76c8c0dd64"
+  },
+  {
+    "path": "rtl/common/tick_ms.v",
+    "sha256": "f445b93f0e77405d090f91208a8fb4a7235ef1fea711a84b0081f1db97d078c1"
+  },
+  {
+    "path": "rtl/common/uart_rx.v",
+    "sha256": "8534cd4ce69e396f326406fac9fdc682e81796e4d7e842e4417b2a34dff1637a"
+  },
+  {
+    "path": "rtl/common/uart_tx.v",
+    "sha256": "377a218b10b90beee940572478f03a29e3bf8301c762514a1a25b31df73a164b"
+  },
+  {
+    "path": "rtl/common/unsigned_divider.v",
+    "sha256": "aae803caebac6465bdde2c58886c9fa9e4c6fb2fe87107bc810fb82d8e56e058"
+  },
+  {
+    "path": "rtl/control/arm_action_pair_controller.v",
+    "sha256": "e2bb1731b989ec834d8ae18f6372aaefc256aa008917f4de2bde7724f87cd73e"
+  },
+  {
+    "path": "rtl/control/board_run_control.v",
+    "sha256": "a9d11a9dba2701d050c3186bbce423f6077aae9bf9f9bc1c6052f72cfccc7d00"
+  },
+  {
+    "path": "rtl/control/grab_fsm.v",
+    "sha256": "2512c7389d57210f874c33d780a24afdeee7ddc847dd7c46d604e0de363ea5af"
+  },
+  {
+    "path": "rtl/control/pose_group_sender.v",
+    "sha256": "2d2861fee36a2174543d95abd6bf76a2454fd9920d4ec4b9da8c84936083c2ee"
+  },
+  {
+    "path": "rtl/control/pose_sender.v",
+    "sha256": "4cfbc910fdf9d1013778f60d8116dcbc78e9437cf84f3a136c6c18ccf5809cbd"
+  },
+  {
+    "path": "rtl/control/pose_table.v",
+    "sha256": "2955a3210554b60e0ce68804f32e6bad68e263d09dd1df4c5dda01b01844a4c4"
+  },
+  {
+    "path": "rtl/integration/confirmed_grasp_core.v",
+    "sha256": "7694680774bdd097fff275f7e661009a9e8e9f35fa36b7e948fd7e46d6bb03b0"
+  },
+  {
+    "path": "rtl/integration/confirmed_grasp_profile.vh",
+    "sha256": "7903eec696ec89dd8cd06e3f1f37c7a1bd3d9d30b31badf0d8ee44bf32de3690"
+  },
+  {
+    "path": "rtl/integration/confirmed_grasp_system.v",
+    "sha256": "034fdaf1c743f0600d930ccef8d3e4c0e265af77911e2936646484fbe3d07942"
+  },
+  {
+    "path": "rtl/integration/vision_grasp_integrated_core.v",
+    "sha256": "d9c4f2e2ac57b666002eaa9579a2d3e9cb6598caa34950db41816834fbe3d2eb"
+  },
+  {
+    "path": "rtl/model/model_diagnostic_core.v",
+    "sha256": "ac5158062f9035823badb003002ea2f290d92681e97f1192ca691eb9c76a5446"
+  },
+  {
+    "path": "rtl/model/native_qnn.v",
+    "sha256": "c27f9822d95b9777cc79084e3cc88703347816ee65dfec5fb56e4da6b344a545"
+  },
+  {
+    "path": "rtl/model/qnn_parameter_rom.v",
+    "sha256": "91c66ce04eeb2b74cde7cb2d915e0ebf17ba28317b33d70add6c82207c654225"
+  },
+  {
+    "path": "rtl/model/qnn_ram8.v",
+    "sha256": "118ce17946d6861637af27a79482403bb9bd9861c5bc8acbea5aff3c4d68ecd3"
+  },
+  {
+    "path": "rtl/model/qnn_result_decode.v",
+    "sha256": "4a10ad6733d686c0942f10088512673108ce70de9f3308492ed5b51c26f065ec"
+  },
+  {
+    "path": "rtl/model/qnn_sequential_core.v",
+    "sha256": "4c59354e6782f905611051c9e0707f7a942868f75a7d7335ae381e1c9abd2f28"
+  },
+  {
+    "path": "rtl/safety/safety_guard.v",
+    "sha256": "aef9d215b40a828b8687ed816c266e20f6bda5d951dd22f8ba59112ee1659157"
+  },
+  {
+    "path": "rtl/servo/base_servo_link.v",
+    "sha256": "7d98b40751ae092d342acbcc53e2405dbdfb889f51c4d983c5a83bcbb14360ea"
+  },
+  {
+    "path": "rtl/servo/servo_ascii_encoder.v",
+    "sha256": "cc40e138cf187a65c10ad6537bb0c6e0e97634deccbbb7ad7e3a8f5a7c661dc6"
+  },
+  {
+    "path": "rtl/servo/servo_bus_master.v",
+    "sha256": "94548c98aa9d330ddd5f02ac26fb168a4006e285b5e123846c0345ed2b75d873"
+  },
+  {
+    "path": "rtl/servo/servo_command_master.v",
+    "sha256": "8ffde3b3af8a278fde62d5caa8785f8c7d032361ed5cd6e7995ab4f60c63da3b"
+  },
+  {
+    "path": "rtl/servo/servo_feedback_parser.v",
+    "sha256": "5253371257a9a95e0ca172a611131175df6b90e9888b21eaf7ef151e84b9fe42"
+  },
+  {
+    "path": "rtl/servo/servo_group_encoder.v",
+    "sha256": "8ddb1df761ff1072ebce8a19ef937b69034b87e8e0e555df869ea17efdf52136"
+  },
+  {
+    "path": "rtl/vision/frame_fresh_gate.v",
+    "sha256": "3df431c02473b1ee9cb861dd79cf577c09eea0d86fa3ff10afc764787c18c93e"
+  },
+  {
+    "path": "rtl/vision/gesture_cnn_demo.v",
+    "sha256": "baed016eefe2fb5b4059181c7f3ff7704e28dd9f533132323ab6bd1503d4f494"
+  },
+  {
+    "path": "rtl/vision/gesture_vote.v",
+    "sha256": "57dc6b03f22eb2144391d19c87c740c181697aa84b1adfbf182e3519c7e95cb5"
+  },
+  {
+    "path": "rtl/vision/lk_monitor_demo.v",
+    "sha256": "054cba4d5f665f5f5259f884f75e6ffacb57715acaa86e7133b31bff865142e4"
+  },
+  {
+    "path": "rtl/vision/object_locator.v",
+    "sha256": "c6a499a20cd58fec7fb375e88cdc69487ce17c34cbef85cf76a2aca40f277852"
+  },
+  {
+    "path": "rtl/vision/observation_frame_gate.v",
+    "sha256": "2d0d2345cbe207e35c291070d5b374d7e0384b5841d302ccc24a5baae50685a6"
+  },
+  {
+    "path": "rtl/vision/observation_target_capture.v",
+    "sha256": "4d6eff3305388c4850a99a94b8cfd1446f44f8a589c95a98340927edbbf06662"
+  },
+  {
+    "path": "rtl/vision/pick_place_target_mapper.v",
+    "sha256": "91dd9177822268cba6b4be9669d1b24f7740b6a74ce784dfcc699b8faccaf955"
+  },
+  {
+    "path": "rtl/vision/pixel_pose_lookup.v",
+    "sha256": "7a156658744659ac5b1e3bf748a30567746a5b03d4d3bb6745c6ddd115dc1ed4"
+  },
+  {
+    "path": "rtl/vision/point_hold_capture.v",
+    "sha256": "3312a73eff0f0ad2610ba4c0866c2ffc804b23e67f42c4595e3bafe11d28e04c"
+  },
+  {
+    "path": "rtl/vision/pointing_target_selector.v",
+    "sha256": "77f1eec46d3d8ba1ea71945eeca2a175509234e496843745fa4fe13d3a346394"
+  },
+  {
+    "path": "rtl/vision/resource_scheduler.v",
+    "sha256": "6e334394c4d324e973afc2b282f45d427e8e6036faeea549aa3f1c50057e6fe0"
+  },
+  {
+    "path": "rtl/vision/target_mapper.v",
+    "sha256": "7082b50622370ef8d3ac08ff5a7c51fcbd871a01096c3da3b328d61d7ac69565"
+  },
+  {
+    "path": "rtl/vision/vertical_path_lookup.v",
+    "sha256": "1738649b7225f39abb7715a593a44a6ef8a94f3900bbc0dd01d5fe79998a6d04"
+  },
+  {
+    "path": "rtl/vision/vision_model_adapter.v",
+    "sha256": "a96e4b53f062d17cb77754b119a0e877bd8cae8e9141302c24c7d12508458ab3"
+  },
+  {
+    "path": "scripts/finalize_v4.py",
+    "sha256": "a7b2a9e1d52f47502f3aeda84158c8414d58143a5d9649dae8fd01adb4c809df"
+  },
+  {
+    "path": "scripts/test_coordinates.ps1",
+    "sha256": "d993994eacf408d0a1f6f4b6187b2701b8a5263134c0717eba9e6c3cdd323cec"
+  },
+  {
+    "path": "scripts/test_v4_radius.ps1",
+    "sha256": "e5bd31a4cd77a6e1dc7f744fa22f45f494d3f0a127496dee882e2c652dc26ac9"
+  },
+  {
+    "path": "scripts/verify_delivery.py",
+    "sha256": "d6830d04342510099770fbfcae18beb11a54d5a0ce2b3007ba2ec42356b259c4"
+  },
+  {
+    "path": "sim/sim_base_comparison.cpp",
+    "sha256": "553a2c98bf40e344bbabaebff71be1df69fb85012b22e1138370315737d06b0b"
+  },
+  {
+    "path": "sim/tb_coordinate_base.v",
+    "sha256": "d8cdb72bb6a609295720efd9eaf8687f5e50db555397efd43ed86969b699c064"
+  },
+  {
+    "path": "sim/tb_presence_selection.v",
+    "sha256": "87274ac16abc37ea8917dbea276bb3f83aadc18daf673b56295e4f8df644a242"
+  },
+  {
+    "path": "sim/tb_v4_radius_selection.v",
+    "sha256": "dc721700d6284e469e2ede20135150224885a74897e9d711db2ad031ccaebbae"
+  },
+  {
+    "path": "sim/vectors/expected_stage0.mem",
+    "sha256": "888287f355363932bbd387d0b3b0ce576c589aac2b483ba25e1306660a8dfd98"
+  },
+  {
+    "path": "sim/vectors/expected_stage1.mem",
+    "sha256": "aca28a23cf3575327c9c0fc404def6f60a4175f229c34183554a5dbf438ec8b2"
+  },
+  {
+    "path": "sim/vectors/expected_stage10.mem",
+    "sha256": "db88b67039ae0f30580d2803e65b5e045acd2e12b9f6589c7f7c70232bf7786f"
+  },
+  {
+    "path": "sim/vectors/expected_stage2.mem",
+    "sha256": "51064a1753ddc13391a4ae6bc4b4eb41ac2138263e714dca1083911638104bfc"
+  },
+  {
+    "path": "sim/vectors/expected_stage3.mem",
+    "sha256": "2a8265fa44122a13341b43b93f8ac50fa29b55d1491704787188f7309a43f12c"
+  },
+  {
+    "path": "sim/vectors/expected_stage4.mem",
+    "sha256": "8ddaf514d2300a616a90637f677656a83400656ccb67b580664f9cc874475ca5"
+  },
+  {
+    "path": "sim/vectors/expected_stage5.mem",
+    "sha256": "a52e9e4e2b671ad70f1e30bb46aab6ac0a54c0a971260b9c08919f862d1542bc"
+  },
+  {
+    "path": "sim/vectors/expected_stage6.mem",
+    "sha256": "d4b2ee08df1cf7dc0a45f481e155eb64004905849957676f90b7b6b7fe5da158"
+  },
+  {
+    "path": "sim/vectors/expected_stage7.mem",
+    "sha256": "d13c1a72f20196ab053ca11b7adbdef35836a8559e14748635b59ed7e69eae09"
+  },
+  {
+    "path": "sim/vectors/expected_stage8.mem",
+    "sha256": "7565461c78a8f5d489f9e28d40180673d0ba25427577b7ed1fafd6cdf602d32b"
+  },
+  {
+    "path": "sim/vectors/expected_stage9.mem",
+    "sha256": "9020abf129cc889a8399b6311e7f18a0ee4c863450df78b317981c081388b10a"
+  },
+  {
+    "path": "sim/vectors/placement_poses.mem",
+    "sha256": "fd277cebc4388b251815846289675b6bec6e971675923da6f1d9d2d880409341"
+  },
+  {
+    "path": "sim/vectors/source_poses.mem",
+    "sha256": "6daabf2df6a8bd7e2088fddf4f65d7f6a1b84b771ef065a50e43ec9f657fcec7"
+  },
+  {
+    "path": "sim/vectors/case49/camera_packet.mem",
+    "sha256": "b83541abf9a36b7060d3d443ce23685b7fa13bd445fb1283ad501a5fb1837ccc"
+  },
+  {
+    "path": "sim/vectors/case49/detection.mem",
+    "sha256": "9035dfe241fd0673c599ef198d3a3ab915e3ebef89aa107d532edacda99a11cc"
+  },
+  {
+    "path": "sim/vectors/case49/head.mem",
+    "sha256": "3311dbea9a8201874a738b2098882bbae4a448f6a01bd3558b81efc261ad1e97"
+  },
+  {
+    "path": "sim/vectors/case67/camera_packet.mem",
+    "sha256": "da3409d66113e9f5dad3a5fcbefa298955803b0f8e1656b8446ad29b08873102"
+  },
+  {
+    "path": "sim/vectors/case67/detection.mem",
+    "sha256": "766c67bf9463cc4de084085dbc01b6697602f3e81ba6c1e8d1a840c586fb877f"
+  },
+  {
+    "path": "sim/vectors/case67/head.mem",
+    "sha256": "af9383bef1d89184887fab3182f8b38933360973587ba4720292964fd9272f5d"
+  },
+  {
+    "path": "tcl/build.tcl",
+    "sha256": "e6481da67b31735f1a5ef2982de3ef2f5e5bbc679827f8cd342cfaf3cd143f06"
+  },
+  {
+    "path": "tcl/check_bus_skew.tcl",
+    "sha256": "281be9c82f471df5ba169979e770152becd157719f0f9c42c8b67d27a3f96a17"
+  },
+  {
+    "path": "tcl/monitor.tcl",
+    "sha256": "7d2fbb8789b173ddeb9f524c5789246031cc377ef239488ef65e66f9dd6929bc"
+  },
+  {
+    "path": "tcl/prepare_roms.tcl",
+    "sha256": "b1cfc529a946962894db151b39d0159368371690871d2a85eba48ba52a86e1b0"
+  },
+  {
+    "path": "tcl/probe_names.tcl",
+    "sha256": "999d7dd3c83ceab3d38506e713d38b71da8d9d6126dca39cbccc016760037623"
+  },
+  {
+    "path": "tcl/program_and_observe.tcl",
+    "sha256": "f871758da86d2cd3b311d1bdca365f2e4259c6081e66a4bd9ead2b455698208b"
+  },
+  {
+    "path": "tcl/program_when_requested.tcl",
+    "sha256": "c0abe3fc79c6a3fc92f2b62c363644250ba49dc801aaf1186900663f7e142b83"
+  },
+  {
+    "path": "templates/pick_place_target_mapper.v",
+    "sha256": "007ce810d06e14ae4233b0c2ae3a987b7d61d4565c1ce8e1e20733fb886921ed"
+  },
+  {
+    "path": "vivado/v4.xpr",
+    "sha256": "a3ade8cd71c6404293670193c62ab505b6a012550bd9c849dbf7b650fa58af19"
+  },
+  {
+    "path": "work/coordinate_test/base_left_to_right.mem",
+    "sha256": "9e890f963d71afa52dc112a699d45f65adfdc132ccc3bfe4c014b392c0b40e40"
+  },
+  {
+    "path": "work/coordinate_test/base_right_to_left.mem",
+    "sha256": "d901bb19e42a8dd91d1c9cf64ac8ebb4317f40de5d8df0c0c991bd5d45973daa"
+  },
+  {
+    "path": "work/coordinate_test/base_same_bearing.mem",
+    "sha256": "e4e6584362a4e775cbdd2d6ad2c9981ef78ba8892ec927eae7d004ed3f14f0ee"
+  },
+  {
+    "path": "work/coordinate_test/expected_left_to_right.mem",
+    "sha256": "ed96d49b2b280f0563a501b773fea0c3e3f973f0aaa924acdbd1dd863884f8cf"
+  },
+  {
+    "path": "work/coordinate_test/expected_right_to_left.mem",
+    "sha256": "83ab8651ffc594f41f01fd267a0ac996abad7aae42eec3d3f4404aad05f938cb"
+  },
+  {
+    "path": "work/coordinate_test/expected_same_bearing.mem",
+    "sha256": "cd5d629c1bc9c30f3b03ab0d9c955e029a8783a274119bb33ae56f8d923f9310"
+  },
+  {
+    "path": "work/coordinate_test/metadata_left_to_right.mem",
+    "sha256": "805c273d0c8406679fb85e114934e8d15af93cac6e57ef7f6237855ff585fcc5"
+  },
+  {
+    "path": "work/coordinate_test/metadata_right_to_left.mem",
+    "sha256": "72ff7a1e72d2a8b8e1cddcb254d3a424ccaf0596a45fbdc0733ef6c178e6f536"
+  },
+  {
+    "path": "work/coordinate_test/metadata_same_bearing.mem",
+    "sha256": "ba853d6bc50fab2ced3898c612ffca5e97432a446837b200cfd05a5240975ad6"
+  },
+  {
+    "path": "work/coordinate_test/pixel_radius_lut.mem",
+    "sha256": "6a359ad0849c69730356bcd8980a00fd2e40d28895db701fdc10d4795d1bbfc6"
+  },
+  {
+    "path": "work/coordinate_test/placement_pose_lut.mem",
+    "sha256": "a849028bf3936d39310ba0e172952d2a6828ad675e6e041707dd0a7cc819183f"
+  },
+  {
+    "path": "work/coordinate_test/qnn_affine.mem",
+    "sha256": "0a6ad3d9a1ce9bcd571f5ae8d36995d22ccf501a19f6c8f3f12fcac76eee8092"
+  },
+  {
+    "path": "work/coordinate_test/qnn_input.mem",
+    "sha256": "03f3d0b8a55329fdaeb868c55d2e1b0c2fe90f348674175240d70191fb7be816"
+  },
+  {
+    "path": "work/coordinate_test/qnn_sigmoid.mem",
+    "sha256": "867ebcc7e4438c042fc7b008102abaa01ffa8d478f87197ae733ad936c06bcec"
+  },
+  {
+    "path": "work/coordinate_test/qnn_thresholds.mem",
+    "sha256": "c7c9388ef74d547e68d5e72c4ab1ae708518c4e4eb7a67501e34275494905ebb"
+  },
+  {
+    "path": "work/coordinate_test/qnn_weights.mem",
+    "sha256": "b72e1f7356aa7c7292acb32ac89f7ec0cc02fc56e7a42e63750700c316daf751"
+  },
+  {
+    "path": "work/coordinate_test/recorded_presence.mem",
+    "sha256": "94afaea6e95128689c8e5da732f68365018a6497c862b3838e8282b8c2e5ae3b"
+  },
+  {
+    "path": "work/coordinate_test/vertical_path_lut.mem",
+    "sha256": "8b1cc2a9d2db539ec993a2bc57e5af66cfca6e233c8f8226146aadc8ae589dc3"
+  },
+  {
+    "path": "work/coordinate_test/workspace_pose_lut.mem",
+    "sha256": "a849028bf3936d39310ba0e172952d2a6828ad675e6e041707dd0a7cc819183f"
+  }
+]
